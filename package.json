@@ -1,0 +1,30 @@
+{
+  "name": "tile-test-page",
+  "version": "1.0.0",
+  "description": "Simple static page with colorful tiles for testing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "grunty grunt-gh-pages gh-pages deploy.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/tile-test-page.git"
+  },
+  "keywords": [
+    "test",
+    "tile",
+    "page",
+    "static"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/tile-test-page/issues"
+  },
+  "homepage": "https://github.com/bahmutov/tile-test-page#readme",
+  "devDependencies": {
+    "grunt-gh-pages": "1.0.0",
+    "grunty": "0.2.0"
+  }
+}
